@@ -8,15 +8,18 @@ Customer churn is when customers stop doing business with a company. Identifying
 - Removed missing values and duplicates
 - Converted categorical features
 - Addressed class imbalance using SMOTE
+  
 •	Exploratory Data Analysis (EDA):
 - Analyzed churn trends by gender, contract type, internet usage, etc.
 - Used bar plots, pie charts, and count plots for insights
+  
 •	Feature Engineering:
 - Encoded categorical variables
 - Scaled numerical features using StandardScaler
 •	Model Building:
 - Trained multiple models: Logistic Regression, Decision Tree, etc.
 - Evaluated using Accuracy, Precision, Recall, F1-Score
+  
 •	Model Deployment:
 - Best model saved using joblib
 - Deployed using a clean Streamlit app
